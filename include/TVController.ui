@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TVController</class>
+ <widget class="QMainWindow" name="TVController">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>257</width>
+    <height>680</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonFollowStyle</enum>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <property name="dockOptions">
+   <set>QMainWindow::AnimatedDocks</set>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_4">
+    <item row="0" column="0">
+     <widget class="QSplitter" name="splitter">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QWidget" name="gridLayoutWidget">
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="1" column="0">
+         <widget class="QPushButton" name="pbN1">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QPushButton" name="pbN3">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>3</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="2">
+         <widget class="QPushButton" name="pbVolumeDown">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>Volume down</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QPushButton" name="pbN0">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QPushButton" name="pbN4">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>4</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QPushButton" name="pbN8">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>8</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QPushButton" name="pbOnOff">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>OnOff</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QPushButton" name="pbN2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QPushButton" name="pbPrevCh">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>Prev</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QPushButton" name="pbNextCh">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>Next</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QPushButton" name="pbN5">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>5</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QPushButton" name="pbN7">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>7</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="QPushButton" name="pbN9">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>9</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QPushButton" name="pbMute">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>Mute</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="QPushButton" name="pbN6">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>6</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="2">
+         <widget class="QPushButton" name="pbVolumeUp">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>Volume up</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_2">
+       <layout class="QGridLayout" name="gridLayout_2" rowstretch="0,0">
+        <property name="sizeConstraint">
+         <enum>QLayout::SetDefaultConstraint</enum>
+        </property>
+        <property name="leftMargin">
+         <number>10</number>
+        </property>
+        <property name="rightMargin">
+         <number>10</number>
+        </property>
+        <item row="0" column="0">
+         <widget class="QLabel" name="lbChannel">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>Channel:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QLineEdit" name="leChannel">
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QLineEdit" name="leVolume">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="lbVolume">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>Volume:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLCDNumber" name="lcdChannel">
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="intValue" stdset="0">
+           <number>5</number>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLCDNumber" name="lcdVolume"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pbOnOff</sender>
+   <signal>clicked()</signal>
+   <receiver>TVController</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>47</x>
+     <y>44</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>128</x>
+     <y>339</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbN0</sender>
+   <signal>clicked()</signal>
+   <receiver>TVController</receiver>
+   <slot>InputChannel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>128</x>
+     <y>349</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>128</x>
+     <y>339</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbN1</sender>
+   <signal>clicked()</signal>
+   <receiver>TVController</receiver>
+   <slot>InputChannel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>47</x>
+     <y>120</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>128</x>
+     <y>339</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbN2</sender>
+   <signal>clicked()</signal>
+   <receiver>TVController</receiver>
+   <slot>InputChannel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>128</x>
+     <y>120</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>128</x>
+     <y>339</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbN3</sender>
+   <signal>clicked()</signal>
+   <receiver>TVController</receiver>
+   <slot>InputChannel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>209</x>
+     <y>120</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>128</x>
+     <y>339</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbN4</sender>
+   <signal>clicked()</signal>
+   <receiver>TVController</receiver>
+   <slot>InputChannel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>47</x>
+     <y>196</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>128</x>
+     <y>339</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbN5</sender>
+   <signal>clicked()</signal>
+   <receiver>TVController</receiver>
+   <slot>InputChannel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>128</x>
+     <y>196</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>128</x>
+     <y>339</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbN6</sender>
+   <signal>clicked()</signal>
+   <receiver>TVController</receiver>
+   <slot>InputChannel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>209</x>
+     <y>196</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>128</x>
+     <y>339</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbN7</sender>
+   <signal>clicked()</signal>
+   <receiver>TVController</receiver>
+   <slot>InputChannel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>47</x>
+     <y>273</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>128</x>
+     <y>339</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbN8</sender>
+   <signal>clicked()</signal>
+   <receiver>TVController</receiver>
+   <slot>InputChannel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>128</x>
+     <y>273</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>128</x>
+     <y>339</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbN9</sender>
+   <signal>clicked()</signal>
+   <receiver>TVController</receiver>
+   <slot>InputChannel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>209</x>
+     <y>273</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>128</x>
+     <y>339</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbNextCh</sender>
+   <signal>clicked()</signal>
+   <receiver>TVController</receiver>
+   <slot>NextChannel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>47</x>
+     <y>425</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>128</x>
+     <y>339</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbPrevCh</sender>
+   <signal>clicked()</signal>
+   <receiver>TVController</receiver>
+   <slot>PrevChannel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>47</x>
+     <y>501</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>128</x>
+     <y>339</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbMute</sender>
+   <signal>clicked()</signal>
+   <receiver>TVController</receiver>
+   <slot>Mute()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>209</x>
+     <y>44</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>128</x>
+     <y>339</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbVolumeUp</sender>
+   <signal>clicked()</signal>
+   <receiver>TVController</receiver>
+   <slot>VolumeUp()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>209</x>
+     <y>425</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>128</x>
+     <y>339</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbVolumeDown</sender>
+   <signal>clicked()</signal>
+   <receiver>TVController</receiver>
+   <slot>VolumeDown()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>209</x>
+     <y>501</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>128</x>
+     <y>339</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>Mute()</slot>
+  <slot>VolumeUp()</slot>
+  <slot>VolumeDown()</slot>
+  <slot>NextChannel()</slot>
+  <slot>PrevChannel()</slot>
+  <slot>InputChannel()</slot>
+ </slots>
+</ui>
